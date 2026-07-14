@@ -1,0 +1,80 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+
+      }
+
+    </mj-style> 
+
+    <!-- The inline style will be used for reusability throughout the email. -->
+    
+    <mj-title></mj-title>
+    <mj-preview>An afternoon of music, faith, and community.</mj-preview>
+
+    <mj-attributes>
+      <mj-all font-family="Helvetica, Arial, sans-serif" />
+      <mj-text color="#ffffff" font-size="16px" line-height="24px" />
+      <mj-wrapper background-color="rgba(7,7,7,0.58)" />
+      <mj-button font-size="14px" font-weight="700" border-radius="999px" padding="14px 20px" />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      .headline { font-size: 34px; line-height: 40px; font-weight: 800; }
+      .divider { border-color: rgba(255,255,255,0.12); }
+      .force-black { background-color: #000000 !important;}
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#070707">
+
+  {{BULLETIN}}
+
+  </mj-body>
+</mjml>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- dont have to write the < symbol, it will autocomplete the tags just writing it like this: mjcolumn 
+
+By default emails should be 600px for Desktop size
+
+
+-->
